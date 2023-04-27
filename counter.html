@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter</title>
+    <script>
+
+        let count = 0;
+        function counter(){
+            count += 1;
+            document.querySelector('h1').innerHTML = count; //user to find data under a specific tag "h1" in this case
+
+            if (count % 10 ===0){
+                alert(`Count is now ${count}`);//``data will be a running variable
+            }
+        }
+
+    </script>
+</head>
+<body>
+    <h1>0</h1>
+    <button onclick="counter()">count</button>
+    
+</body>
+</html>

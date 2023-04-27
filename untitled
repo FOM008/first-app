@@ -1,0 +1,25 @@
+//CLIENT
+// -URL
+// -Headers
+//   -statuscode 
+//   -content type
+// -Body/Payload
+
+
+//SERVER e.g www.google.com/172.217.170.196
+// URL/URI (Uniform resource indicator/locator)
+// https://www.google.com/search?q=node.js#one
+// file://C://Users/
+// sftp://
+// ftp://
+// smtp://
+// // 100-199- General informations'
+// 200-299 -- No error, 201, 20
+// 300-399 -- redirection
+// 400-499 -- client error 400-bad request, 401-unauthorized, 404-
+// 500-- internal server error 503 -hacked
+//htttp requests
+//GET
+//POST
+//DELETE
+//PUT
